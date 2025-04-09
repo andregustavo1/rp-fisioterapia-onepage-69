@@ -7,7 +7,7 @@ import WhyChooseUs from '@/components/WhyChooseUs';
 import ServicesSection from '@/components/ServicesSection';
 import SpecialtiesSection from '@/components/SpecialtiesSection';
 import TreatmentProcess from '@/components/TreatmentProcess';
-import TestimonialsSection from '@/components/TestimonialsSection';
+import TreatmentGallery from '@/components/TreatmentGallery';
 import ContactSection from '@/components/ContactSection';
 import CtaSection from '@/components/CtaSection';
 import Footer from '@/components/Footer';
@@ -49,10 +49,10 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <WhyChooseUs />
+        <TreatmentGallery />
         <ServicesSection />
         <SpecialtiesSection />
         <TreatmentProcess />
-        <TestimonialsSection />
         <ContactSection />
         <CtaSection />
       </main>
