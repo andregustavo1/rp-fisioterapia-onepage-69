@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
               animation="fade-in-up" 
               delay={200 + (index * 100)}
             >
-              <div className="glass-card hover:shadow-lg transform hover:-translate-y-1 h-full">
+              <div className="glass-card hover:shadow-lg transform hover:-translate-y-1 h-full px-6 py-8">
                 <div className="icon-container mx-auto">
                   <reason.icon className="h-6 w-6" />
                 </div>

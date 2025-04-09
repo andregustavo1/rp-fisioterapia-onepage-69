@@ -34,11 +34,11 @@ const Header = () => {
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4',
         scrolled
           ? 'glassmorphism header-shadow py-3'
-          : 'bg-transparent'
+          : 'bg-primary/80 text-white'
       )}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#inicio" className="text-primary">
+        <a href="#inicio" className={cn(scrolled ? "text-primary" : "text-white")}>
           <h1 className="text-xl md:text-2xl font-extrabold">RP Fisioterapia</h1>
         </a>
 
@@ -47,7 +47,10 @@ const Header = () => {
             <li>
               <button 
                 onClick={() => scrollToSection('inicio')}
-                className="text-gray-800 hover:text-primary font-medium transition-colors"
+                className={cn(
+                  "font-medium transition-colors",
+                  scrolled ? "text-gray-800 hover:text-primary" : "text-white hover:text-gray-200"
+                )}
               >
                 Início
               </button>
@@ -55,7 +58,10 @@ const Header = () => {
             <li>
               <button 
                 onClick={() => scrollToSection('sobre')}
-                className="text-gray-800 hover:text-primary font-medium transition-colors"
+                className={cn(
+                  "font-medium transition-colors",
+                  scrolled ? "text-gray-800 hover:text-primary" : "text-white hover:text-gray-200"
+                )}
               >
                 Sobre
               </button>
@@ -63,7 +69,10 @@ const Header = () => {
             <li>
               <button 
                 onClick={() => scrollToSection('servicos')}
-                className="text-gray-800 hover:text-primary font-medium transition-colors"
+                className={cn(
+                  "font-medium transition-colors",
+                  scrolled ? "text-gray-800 hover:text-primary" : "text-white hover:text-gray-200"
+                )}
               >
                 Serviços
               </button>
@@ -71,7 +80,10 @@ const Header = () => {
             <li>
               <button 
                 onClick={() => scrollToSection('especialidades')}
-                className="text-gray-800 hover:text-primary font-medium transition-colors"
+                className={cn(
+                  "font-medium transition-colors",
+                  scrolled ? "text-gray-800 hover:text-primary" : "text-white hover:text-gray-200"
+                )}
               >
                 Especialidades
               </button>
@@ -79,7 +91,10 @@ const Header = () => {
             <li>
               <button 
                 onClick={() => scrollToSection('contato')}
-                className="text-gray-800 hover:text-primary font-medium transition-colors"
+                className={cn(
+                  "font-medium transition-colors",
+                  scrolled ? "text-gray-800 hover:text-primary" : "text-white hover:text-gray-200"
+                )}
               >
                 Contato
               </button>
@@ -89,7 +104,10 @@ const Header = () => {
                 href="https://wa.me/5511992992999"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn btn-primary text-sm"
+                className={cn(
+                  "btn text-sm",
+                  scrolled ? "btn-primary" : "bg-white text-primary hover:bg-gray-100"
+                )}
               >
                 Agendar Consulta
               </a>
@@ -102,7 +120,10 @@ const Header = () => {
             href="https://wa.me/5511992992999"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-primary text-sm py-2 px-4"
+            className={cn(
+              "btn text-sm py-2 px-4",
+              scrolled ? "btn-primary" : "bg-white text-primary hover:bg-gray-100"
+            )}
           >
             Agendar
           </a>
