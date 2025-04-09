@@ -11,10 +11,10 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-50"
         style={{
-          backgroundImage: "url('public/lovable-uploads/6dd7a913-07eb-4dec-a90f-c3361c78c694.png')"
+          backgroundImage: "url('/lovable-uploads/image.png')"
         }}
       ></div>
-      <div className="absolute inset-0 bg-gradient-primary opacity-75"></div>
+      <div className="absolute inset-0 bg-gradient-primary opacity-60"></div>
       
       <div className="container relative mx-auto px-4 md:px-8 z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center">

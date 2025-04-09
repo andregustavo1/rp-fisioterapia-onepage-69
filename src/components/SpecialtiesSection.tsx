@@ -8,19 +8,19 @@ const SpecialtiesSection = () => {
     {
       title: "Dor na Coluna",
       description: "Tratamento para dores lombares, cervicais e dorsais com técnicas específicas para cada região.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "/lovable-uploads/1.png",
       indications: ["Hérnias de disco", "Escoliose", "Espondilolistese", "Dor ciática"]
     },
     {
       title: "Lesões Esportivas",
       description: "Reabilitação completa para atletas amadores e profissionais com foco no retorno seguro à atividade.",
-      image: "https://images.unsplash.com/photo-1602536674834-ac9c16c793d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
+      image: "/lovable-uploads/2.png",
       indications: ["Entorses", "Lesões musculares", "Tendinites", "Reabilitação pós-cirúrgica"]
     },
     {
       title: "Problemas Articulares",
-      description: "Tratamento especializado para disfunções nas articulações do joelho, ombro, quadril e tornozelo.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      description: "Tratamento e3pecializado para disfunções nas articulações do joelho, ombro, quadril e tornozelo.",
+      image: "/lovable-uploads/3.png",
       indications: ["Artrose", "Artrite", "Bursites", "Lesões de menisco"]
     },
   ];

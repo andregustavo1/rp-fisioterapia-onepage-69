@@ -39,7 +39,7 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#inicio" className={cn(scrolled ? "text-primary" : "text-white")}>
-          <h1 className="text-xl md:text-2xl font-extrabold">RP Fisioterapia</h1>
+          <img src="/lovable-uploads/logo.png" className="w-60" alt="" />
         </a>
 
         <nav className="hidden md:block">

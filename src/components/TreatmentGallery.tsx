@@ -6,22 +6,22 @@ const TreatmentGallery = () => {
   const treatments = [
     {
       id: 1,
-      image: "public/lovable-uploads/6e65e9ed-a485-49f8-a36e-a59ae74b1245.png",
+      image: "/lovable-uploads/6e65e9ed-a485-49f8-a36e-a59ae74b1245.png",
       alt: "Fisioterapeuta examinando o joelho de um paciente"
     },
     {
       id: 2,
-      image: "public/lovable-uploads/30df9452-5b2c-4a04-af5f-9b7d23ca386c.png",
+      image: "/lovable-uploads/30df9452-5b2c-4a04-af5f-9b7d23ca386c.png",
       alt: "Paciente com eletrodos de eletroterapia no joelho"
     },
     {
       id: 3,
-      image: "public/lovable-uploads/62cf73d9-368d-4d85-9d3c-4c7228303efe.png",
+      image: "/lovable-uploads/62cf73d9-368d-4d85-9d3c-4c7228303efe.png",
       alt: "Aplicação de gel terapêutico na perna de paciente"
     },
     {
       id: 4,
-      image: "public/lovable-uploads/d9dc679b-e803-4d25-8ec4-58b09ddd43dc.png",
+      image: "/lovable-uploads/d9dc679b-e803-4d25-8ec4-58b09ddd43dc.png",
       alt: "Ventosaterapia aplicada nas costas de um paciente"
     },
   ];
